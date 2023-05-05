@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" class="search-bar" placeholder="Search">
+            <button>
+                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1.5em" width="1.5em" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M909.6 854.5L649.9 594.8c-11.1-8.7-22.7-17-34.7-24.9c-56.7-43.7-87.9-83.8-87.9-212.1s87.9-212.1 87.9-212.1s155.5 87.9-56.7 349.3C256.5 680.8 278.3 810.6 969 1253.3z"/>
+                </svg>
+            </button>
+        </div>
+        <div class="weather loading">
+            <h2 class="city">Weather in Denver</h2>
+            <h1 class="temp">51°C</h1>
+            <div class="flex"></div>
+            <img src="https://openweathermap.org/img/wn/04d@2x.png" alt="" class="icon">
+            <div class="description">Cloudy</div> 
+            <div class="humidity">Humidity: 60%</div>
+            <div class="wind">Wind speed: 6.2 km/h</div>
+        </div>
+    </div>
+</body>
+</html>
